@@ -1,5 +1,4 @@
 # tpcuanti2
-# tpcuanti2
 
 import streamlit as st
 import numpy as np
@@ -54,5 +53,3 @@ def generate_pattern_visualization(pattern, color):
 
 fig = generate_pattern_visualization(pattern, color)
 st.pyplot(fig)
-
-
